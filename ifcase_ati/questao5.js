@@ -1,6 +1,6 @@
 const leia = require('readline-sync')
 
-let produto, quant
+let produto, preco, quant, total
 console.log('1 - Cachorro-quente R$ 10 | 2 - X-Salada R$ 15 | 3 - X-Bacon R$ 18 | 4 - Bauru R$ 12 | 5 - Refrigerante R$ 8 | 6 Suco de laranja R$ 13')
 produto = leia.questionInt('Escolha um produto: ')
 quant = leia.questionInt('Quantas unidades voce quer?')
